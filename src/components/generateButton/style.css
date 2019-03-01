@@ -1,0 +1,9 @@
+.generate-button {
+  width: 110px;
+  height: 30px;
+  margin-left: 1rem;
+  background: #6899ec;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+}
