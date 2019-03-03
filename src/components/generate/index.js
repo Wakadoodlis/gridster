@@ -9,12 +9,22 @@ class generate extends Component {
           <label className="row-label label-size" htmlFor="rows">
             Rows
           </label>
-          <input className="main-inputs" type="number" defaultValue="10" />
+          <input
+            className="main-inputs"
+            type="number"
+            defaultValue="10"
+            max="20"
+          />
           <div className="x-element">x</div>
           <label className="columns-label label-size" htmlFor="columns">
             Columns
           </label>
-          <input className="main-inputs" type="number" defaultValue="10" />
+          <input
+            className="main-inputs"
+            type="number"
+            defaultValue="10"
+            max="20"
+          />
           <div className="generateBtn-wraper">
             <GenerateButton />
           </div>

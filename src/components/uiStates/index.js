@@ -2,10 +2,6 @@ import React from "react";
 import GenerateButton from "../generateButton";
 import "./style.css";
 
-const btnHover = {
-  background: "#90b4f2"
-};
-
 function uiStates() {
   return (
     <React.Fragment>
