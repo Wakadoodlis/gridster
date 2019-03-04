@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import "./style.css";
 
-class square extends Component {
+class squares extends Component {
   render() {
     return (
       <div className="square-wraper">
@@ -113,4 +113,4 @@ class square extends Component {
   }
 }
 
-export default square;
+export default squares;

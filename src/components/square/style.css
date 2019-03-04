@@ -1,0 +1,11 @@
+.square-wraper {
+  margin-top: 1rem;
+  max-width: 44%;
+}
+
+.square {
+  width: 48px;
+  height: 48px;
+  background: rgba(143, 141, 141, 0.1);
+  border: 1px lightgray solid;
+}

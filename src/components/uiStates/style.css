@@ -1,7 +1,12 @@
+/* buttons */
+.none:hover {
+  color: red;
+}
+
 .hover-btn {
   width: 110px;
   height: 30px;
-  margin-left: 1rem;
+  margin-left: 3rem;
   background: #90b4f2;
   color: white;
   font-size: 14px;
@@ -11,7 +16,7 @@
 .down-btn {
   width: 110px;
   height: 30px;
-  margin-left: 1rem;
+  margin-left: 3rem;
   background: #2462ce;
   color: white;
   font-size: 14px;
@@ -24,7 +29,7 @@
 
 .ui-header {
   margin-top: 1rem;
-  color: grey;
+  color: #929292;
   font-size: 15px;
   margin-bottom: 2rem;
 }
@@ -33,26 +38,25 @@
   display: flex;
   position: relative;
   align-content: space-between;
+  color: #929292;
+  font-size: 12px;
 }
 
 .default-div {
   position: absolute;
   top: -23px;
   left: 1px;
-  color: grey;
 }
 
 .hover-div {
   position: absolute;
   top: -23px;
-  left: 126px;
-  color: grey;
+  left: 157px;
 }
 .down-div {
   position: absolute;
   top: -23px;
-  left: 253px;
-  color: grey;
+  left: 318px;
 }
 
 /* grid */
@@ -60,43 +64,83 @@
 .grid-wraper {
   margin-top: 2rem;
   position: relative;
+  /* margin-bottom: 2rem; */
+  color: #929292;
+  font-size: 12px;
+}
+
+/* squares */
+.square-wraper2 {
+  position: relative;
+}
+
+.margin2 {
   margin-bottom: 2rem;
 }
 
-.square {
-  margin-left: 5px;
-}
-
-.grids {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(3rem, 3fr));
-  grid-auto-rows: 3fr;
-  margin-left: 2rem;
-}
-
-.grids::before {
-  content: "";
-  width: 0;
-  padding-bottom: 100%;
-  grid-row: 1 / 1;
-  grid-column: 2 / 2;
-}
-
-.grids > *:first-child {
-  grid-row: 1 / 1;
-  grid-column: 1 / 1;
-}
-
-.grids > * {
-  background: rgba(143, 141, 141, 0.1);
-  border: 4px #ddd solid;
-  border-width: 1px;
-}
-
-.grids > *:hover {
+.square.square-hover {
   background: rgba(204, 200, 200, 0.1);
+  position: absolute;
+  top: 0px;
+  left: 110px;
+}
+.square.square-down {
+  background: rgba(97, 96, 96, 0.288);
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}
+.square.square-clear {
+  background: #fff;
+  position: absolute;
+  top: 0px;
+  left: 310px;
 }
 
-.grids > *:active {
-  background: rgba(97, 96, 96, 0.288);
+/* suqre titles */
+.square-div-hover {
+  position: absolute;
+  top: 0px;
+  left: 110px;
+}
+
+.square-div-Down {
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}
+
+.square-div-Clear {
+  position: absolute;
+  top: 0px;
+  left: 310px;
+}
+
+/* last three squares */
+.square.square-start {
+  background: #52ea15;
+}
+.square.square-end {
+  background: #65ae47;
+  position: absolute;
+  top: 0px;
+  left: 110px;
+}
+.square.square-shortp {
+  background: #f9b91f;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}
+/* titles */
+
+.square-div-end {
+  position: absolute;
+  top: 0px;
+  left: 110px;
+}
+.square-div-shortp {
+  position: absolute;
+  top: 0px;
+  left: 200px;
 }

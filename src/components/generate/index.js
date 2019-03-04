@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import GenerateButton from "../generateButton";
 import "./style.css";
 class generate extends Component {
   render() {
@@ -26,7 +25,7 @@ class generate extends Component {
             max="20"
           />
           <div className="generateBtn-wraper">
-            <GenerateButton />
+            <button className="generate-button">Generate</button>
           </div>
         </div>
       </div>
